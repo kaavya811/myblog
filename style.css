@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding-top:800px;
-     
+     text-align: center;
 }
 .profile{
     width:175px;
@@ -58,6 +58,7 @@ p{
     margin: 20px;
     font-size: 17px;
     line-height: 1.3;
+    text-align: center;
 }
 .parallax-inner{
     display: table-cell;
@@ -86,5 +87,15 @@ position: relative;
 }
 .links:hover{
     background-color: cornflowerblue;
+    
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: maroon;
+}
+html{
+    scroll-behavior: smooth;
     
 }
